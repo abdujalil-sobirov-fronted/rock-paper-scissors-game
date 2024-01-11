@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock-Paper-Scissors</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="result">
+      <div class="game_name">
+        <h3 class="game_name-title">PAPER</h3>
+        <h3 class="game_name-title">ROCK</h3>
+        <h3 class="game_name-title">SCICCORS.</h3>
+      </div>
+      <div class="score">
+        <h2>SCORE <span id="score">0</span></h2>
+      </div>
+    </div>
+    <div class="choose" id="choose_game">
+      <div class="paper img" id="paper_img" onclick="playGame('paper')">
+        <img src="images/paper.png" alt="paper">
+      </div>
+      <div class="scissors img" id="scissors_img" onclick="playGame('scissors')">
+        <img src="images/scissors.png" alt="scissors">
+      </div>
+      <div class="rock img" id="rock_img" onclick="playGame('rock')">
+        <img src="images/rock.png" alt="rock">
+      </div>
+    </div>
+    <h2 id="your_pick">YOUR PICKED</h2>
+    <h2 id="computer_pick">THE HOUSE PICKED</h2>
+    <h2 id="computer_win">COMPUTER WIN</h2>
+    <h2 id="you_win">YOU WIN</h2>
+    <h2 id="draw">DRAW</h2>
+  </div>
+
+  <div class="computer_choise" id="computer_choice">
+    <img src="" alt="computer_choice" id="computer_choice_img">
+  </div>
+
+  <button id="play-again" onclick="resetGame()">Play Again</button>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

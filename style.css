@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background: radial-gradient(134.42% 134.42% at 50% 0%, #4DDB9C 0%, #157354 100%);
+  width: 1366px;
+  height: 768px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.result {
+  width: 700px;
+  height: 150px;
+  margin: 0 auto;
+  position: absolute;
+  top: 48px;
+  left: 333px;
+  right: 333px;
+  opacity: flex;
+}
+
+.game_name {
+  width: 170px;
+  height: 96px;
+  position: absolute;
+  top: 24px;
+  left: 32px;
+}
+
+.game_name-title {
+  font-size: 40px;
+  font-family: BarlowSemiCondensed;
+  color: #fff;
+}
+
+.score {
+  width: 150px;
+  height: 114px;
+  position: absolute;
+  right: 24px;
+  top: 18px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.score h2 {
+  width: 55px;
+  height: 83px;
+  color: red;
+  font-size: 16px;
+  position: absolute;
+  top: 16px;
+  left: 48px;
+}
+
+.score h2 span {
+  font-size: 48px;
+  color: black;
+}
+
+.choose {
+  width: 476px;
+  height: 430px;
+  position: absolute;
+  top: 262px;
+  left: 445px;
+  right: 445px;
+}
+
+.img img {
+  width: 198px;
+  height: 203px;
+  cursor: pointer;
+}
+
+.paper {
+  position: absolute;
+  right: 278px;
+}
+
+.scissors {
+  position: absolute;
+  left: 278px;
+}
+
+.rock {
+  position: absolute;
+  top: 227px;
+  left: 139px;
+}
+
+.computer_choise {
+  position: absolute;
+  top: 400px;
+  right: 252px;
+  display: none;
+}
+
+#play-again {
+  position: absolute;
+  top: 500px;
+  left: 600px;
+  font-size: 24px;
+  padding: 10px 20px;
+  cursor: pointer;
+  display: none;
+}
+
+#your_pick {
+  opacity: 0;
+  color: #fff;
+  font-family: BarlowSemiCondensed;
+  font-size: 28px;
+  position: absolute;
+  top: 350px;
+  left: 230px;
+}
+
+
+#computer_pick {
+  opacity: 0;
+  color: #fff;
+  font-family: BarlowSemiCondensed;
+  font-size: 28px;
+  position: absolute;
+  top: 350px;
+  left: 900px;
+}
+
+#computer_win {
+  opacity: 0;
+  color: #fff;
+  font-family: BarlowSemiCondensed;
+  font-size: 28px;
+  position: absolute;
+  top: 420px;
+  left: 530px;
+}
+
+#you_win {
+  opacity: 0;
+  color: #fff;
+  font-family: BarlowSemiCondensed;
+  font-size: 28px;
+  position: absolute;
+  top: 420px;
+  left: 570px;
+}
+
+#draw {
+  opacity: 0;
+  color: #fff;
+  font-family: BarlowSemiCondensed;
+  font-size: 28px;
+  position: absolute;
+  top: 420px;
+  left: 600px;
+}
